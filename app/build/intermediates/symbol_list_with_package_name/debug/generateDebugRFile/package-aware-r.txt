@@ -1,0 +1,5 @@
+com.juani.afterlight
+string app_name
+string share_label
+style AppTheme
+xml file_paths

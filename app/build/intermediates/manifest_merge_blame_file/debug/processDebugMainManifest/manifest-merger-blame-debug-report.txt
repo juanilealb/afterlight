@@ -1,0 +1,297 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.juani.afterlight"
+4    android:versionCode="1"
+5    android:versionName="0.1.0" >
+6
+7    <uses-sdk
+7-->INJECTED
+8        android:minSdkVersion="26"
+8-->INJECTED
+9        android:targetSdkVersion="36" />
+9-->INJECTED
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/hermes/work/afterlight-nightly/afterlight/app/src/main/AndroidManifest.xml:2:5-67
+11-->/home/hermes/work/afterlight-nightly/afterlight/app/src/main/AndroidManifest.xml:2:22-64
+12    <uses-permission android:name="android.permission.WAKE_LOCK" />
+12-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:23:5-68
+12-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:23:22-65
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:24:5-79
+13-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:24:22-76
+14    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+14-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:25:5-81
+14-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:25:22-78
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+15-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:26:5-77
+15-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:26:22-74
+16
+17    <permission
+17-->[androidx.core:core:1.18.0] /home/hermes/.gradle/caches/9.5.1/transforms/abd3efb04504d75e53b9fea2b4796e4d/transformed/core-1.18.0/AndroidManifest.xml:22:5-24:47
+18        android:name="com.juani.afterlight.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+18-->[androidx.core:core:1.18.0] /home/hermes/.gradle/caches/9.5.1/transforms/abd3efb04504d75e53b9fea2b4796e4d/transformed/core-1.18.0/AndroidManifest.xml:23:9-81
+19        android:protectionLevel="signature" />
+19-->[androidx.core:core:1.18.0] /home/hermes/.gradle/caches/9.5.1/transforms/abd3efb04504d75e53b9fea2b4796e4d/transformed/core-1.18.0/AndroidManifest.xml:24:9-44
+20
+21    <uses-permission android:name="com.juani.afterlight.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+21-->[androidx.core:core:1.18.0] /home/hermes/.gradle/caches/9.5.1/transforms/abd3efb04504d75e53b9fea2b4796e4d/transformed/core-1.18.0/AndroidManifest.xml:26:5-97
+21-->[androidx.core:core:1.18.0] /home/hermes/.gradle/caches/9.5.1/transforms/abd3efb04504d75e53b9fea2b4796e4d/transformed/core-1.18.0/AndroidManifest.xml:26:22-94
+22
+23    <application
+23-->/home/hermes/work/afterlight-nightly/afterlight/app/src/main/AndroidManifest.xml:3:5-27:19
+24        android:name="com.juani.afterlight.AfterlightApp"
+24-->/home/hermes/work/afterlight-nightly/afterlight/app/src/main/AndroidManifest.xml:3:18-47
+25        android:allowBackup="true"
+25-->/home/hermes/work/afterlight-nightly/afterlight/app/src/main/AndroidManifest.xml:3:48-74
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.18.0] /home/hermes/.gradle/caches/9.5.1/transforms/abd3efb04504d75e53b9fea2b4796e4d/transformed/core-1.18.0/AndroidManifest.xml:28:18-86
+27        android:debuggable="true"
+28        android:extractNativeLibs="false"
+28-->INJECTED
+29        android:label="@string/app_name"
+29-->/home/hermes/work/afterlight-nightly/afterlight/app/src/main/AndroidManifest.xml:3:75-107
+30        android:theme="@style/AppTheme" >
+30-->/home/hermes/work/afterlight-nightly/afterlight/app/src/main/AndroidManifest.xml:3:108-139
+31        <provider
+31-->/home/hermes/work/afterlight-nightly/afterlight/app/src/main/AndroidManifest.xml:4:9-10:20
+32            android:name="androidx.core.content.FileProvider"
+32-->/home/hermes/work/afterlight-nightly/afterlight/app/src/main/AndroidManifest.xml:5:13-62
+33            android:authorities="com.juani.afterlight.files"
+33-->/home/hermes/work/afterlight-nightly/afterlight/app/src/main/AndroidManifest.xml:6:13-61
+34            android:exported="false"
+34-->/home/hermes/work/afterlight-nightly/afterlight/app/src/main/AndroidManifest.xml:7:13-37
+35            android:grantUriPermissions="true" >
+35-->/home/hermes/work/afterlight-nightly/afterlight/app/src/main/AndroidManifest.xml:8:13-47
+36            <meta-data
+36-->/home/hermes/work/afterlight-nightly/afterlight/app/src/main/AndroidManifest.xml:9:13-112
+37                android:name="android.support.FILE_PROVIDER_PATHS"
+37-->/home/hermes/work/afterlight-nightly/afterlight/app/src/main/AndroidManifest.xml:9:24-74
+38                android:resource="@xml/file_paths" />
+38-->/home/hermes/work/afterlight-nightly/afterlight/app/src/main/AndroidManifest.xml:9:75-109
+39        </provider>
+40
+41        <activity
+41-->/home/hermes/work/afterlight-nightly/afterlight/app/src/main/AndroidManifest.xml:11:9-26:20
+42            android:name="com.juani.afterlight.MainActivity"
+42-->/home/hermes/work/afterlight-nightly/afterlight/app/src/main/AndroidManifest.xml:11:19-47
+43            android:exported="true" >
+43-->/home/hermes/work/afterlight-nightly/afterlight/app/src/main/AndroidManifest.xml:11:48-71
+44            <intent-filter>
+44-->/home/hermes/work/afterlight-nightly/afterlight/app/src/main/AndroidManifest.xml:12:13-15:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->/home/hermes/work/afterlight-nightly/afterlight/app/src/main/AndroidManifest.xml:13:17-69
+45-->/home/hermes/work/afterlight-nightly/afterlight/app/src/main/AndroidManifest.xml:13:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->/home/hermes/work/afterlight-nightly/afterlight/app/src/main/AndroidManifest.xml:14:17-77
+47-->/home/hermes/work/afterlight-nightly/afterlight/app/src/main/AndroidManifest.xml:14:27-74
+48            </intent-filter>
+49            <intent-filter android:label="@string/share_label" >
+49-->/home/hermes/work/afterlight-nightly/afterlight/app/src/main/AndroidManifest.xml:16:13-21:29
+49-->/home/hermes/work/afterlight-nightly/afterlight/app/src/main/AndroidManifest.xml:16:28-63
+50                <action android:name="android.intent.action.SEND" />
+50-->/home/hermes/work/afterlight-nightly/afterlight/app/src/main/AndroidManifest.xml:17:17-69
+50-->/home/hermes/work/afterlight-nightly/afterlight/app/src/main/AndroidManifest.xml:17:25-66
+51
+52                <category android:name="android.intent.category.DEFAULT" />
+52-->/home/hermes/work/afterlight-nightly/afterlight/app/src/main/AndroidManifest.xml:18:17-76
+52-->/home/hermes/work/afterlight-nightly/afterlight/app/src/main/AndroidManifest.xml:18:27-73
+53
+54                <data android:mimeType="text/plain" />
+54-->/home/hermes/work/afterlight-nightly/afterlight/app/src/main/AndroidManifest.xml:19:17-55
+54-->/home/hermes/work/afterlight-nightly/afterlight/app/src/main/AndroidManifest.xml:19:23-52
+55                <data android:mimeType="text/html" />
+55-->/home/hermes/work/afterlight-nightly/afterlight/app/src/main/AndroidManifest.xml:19:17-55
+55-->/home/hermes/work/afterlight-nightly/afterlight/app/src/main/AndroidManifest.xml:19:23-52
+56            </intent-filter>
+57            <intent-filter>
+57-->/home/hermes/work/afterlight-nightly/afterlight/app/src/main/AndroidManifest.xml:22:13-25:29
+58                <action android:name="com.juani.afterlight.SAVE_ARTICLE" />
+58-->/home/hermes/work/afterlight-nightly/afterlight/app/src/main/AndroidManifest.xml:23:17-76
+58-->/home/hermes/work/afterlight-nightly/afterlight/app/src/main/AndroidManifest.xml:23:25-73
+59
+60                <category android:name="android.intent.category.DEFAULT" />
+60-->/home/hermes/work/afterlight-nightly/afterlight/app/src/main/AndroidManifest.xml:18:17-76
+60-->/home/hermes/work/afterlight-nightly/afterlight/app/src/main/AndroidManifest.xml:18:27-73
+61            </intent-filter>
+62        </activity>
+63        <activity
+63-->[androidx.compose.ui:ui-tooling-android:1.12.0-alpha03] /home/hermes/.gradle/caches/9.5.1/transforms/376b71b4457a34dc5b7a1c286d0c375a/transformed/ui-tooling/AndroidManifest.xml:23:9-25:39
+64            android:name="androidx.compose.ui.tooling.PreviewActivity"
+64-->[androidx.compose.ui:ui-tooling-android:1.12.0-alpha03] /home/hermes/.gradle/caches/9.5.1/transforms/376b71b4457a34dc5b7a1c286d0c375a/transformed/ui-tooling/AndroidManifest.xml:24:13-71
+65            android:exported="true" />
+65-->[androidx.compose.ui:ui-tooling-android:1.12.0-alpha03] /home/hermes/.gradle/caches/9.5.1/transforms/376b71b4457a34dc5b7a1c286d0c375a/transformed/ui-tooling/AndroidManifest.xml:25:13-36
+66
+67        <provider
+67-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:29:9-37:20
+68            android:name="androidx.startup.InitializationProvider"
+68-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:30:13-67
+69            android:authorities="com.juani.afterlight.androidx-startup"
+69-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:31:13-68
+70            android:exported="false" >
+70-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:32:13-37
+71            <meta-data
+71-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:34:13-36:52
+72                android:name="androidx.work.WorkManagerInitializer"
+72-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:35:17-68
+73                android:value="androidx.startup" />
+73-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:36:17-49
+74            <meta-data
+74-->[androidx.emoji2:emoji2:1.4.0] /home/hermes/.gradle/caches/9.5.1/transforms/b7476997edc6eb0b859dbc999fd21077/transformed/emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
+75                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+75-->[androidx.emoji2:emoji2:1.4.0] /home/hermes/.gradle/caches/9.5.1/transforms/b7476997edc6eb0b859dbc999fd21077/transformed/emoji2-1.4.0/AndroidManifest.xml:30:17-75
+76                android:value="androidx.startup" />
+76-->[androidx.emoji2:emoji2:1.4.0] /home/hermes/.gradle/caches/9.5.1/transforms/b7476997edc6eb0b859dbc999fd21077/transformed/emoji2-1.4.0/AndroidManifest.xml:31:17-49
+77            <meta-data
+77-->[androidx.lifecycle:lifecycle-process:2.10.0] /home/hermes/.gradle/caches/9.5.1/transforms/f4a7fa9f61a8bce6bcacae738a747431/transformed/lifecycle-process-2.10.0/AndroidManifest.xml:29:13-31:52
+78                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+78-->[androidx.lifecycle:lifecycle-process:2.10.0] /home/hermes/.gradle/caches/9.5.1/transforms/f4a7fa9f61a8bce6bcacae738a747431/transformed/lifecycle-process-2.10.0/AndroidManifest.xml:30:17-78
+79                android:value="androidx.startup" />
+79-->[androidx.lifecycle:lifecycle-process:2.10.0] /home/hermes/.gradle/caches/9.5.1/transforms/f4a7fa9f61a8bce6bcacae738a747431/transformed/lifecycle-process-2.10.0/AndroidManifest.xml:31:17-49
+80            <meta-data
+80-->[com.squareup.okhttp3:okhttp-android:5.3.0] /home/hermes/.gradle/caches/9.5.1/transforms/f3ff7bfea6c904dbb9a99d020b41daf9/transformed/okhttp-release/AndroidManifest.xml:16:13-18:52
+81                android:name="okhttp3.internal.platform.PlatformInitializer"
+81-->[com.squareup.okhttp3:okhttp-android:5.3.0] /home/hermes/.gradle/caches/9.5.1/transforms/f3ff7bfea6c904dbb9a99d020b41daf9/transformed/okhttp-release/AndroidManifest.xml:17:17-77
+82                android:value="androidx.startup" />
+82-->[com.squareup.okhttp3:okhttp-android:5.3.0] /home/hermes/.gradle/caches/9.5.1/transforms/f3ff7bfea6c904dbb9a99d020b41daf9/transformed/okhttp-release/AndroidManifest.xml:18:17-49
+83            <meta-data
+83-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/hermes/.gradle/caches/9.5.1/transforms/bc1a510e2641645fd1fac7dde6919cfa/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+84                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+84-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/hermes/.gradle/caches/9.5.1/transforms/bc1a510e2641645fd1fac7dde6919cfa/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+85                android:value="androidx.startup" />
+85-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/hermes/.gradle/caches/9.5.1/transforms/bc1a510e2641645fd1fac7dde6919cfa/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+86        </provider>
+87
+88        <service
+88-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:39:9-45:35
+89            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+89-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:40:13-84
+90            android:directBootAware="false"
+90-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:41:13-44
+91            android:enabled="@bool/enable_system_job_service_default"
+91-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:42:13-70
+92            android:exported="true"
+92-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:43:13-36
+93            android:permission="android.permission.BIND_JOB_SERVICE" />
+93-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:44:13-69
+94        <service
+94-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:46:9-52:35
+95            android:name="androidx.work.impl.foreground.SystemForegroundService"
+95-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:47:13-81
+96            android:directBootAware="false"
+96-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:48:13-44
+97            android:enabled="@bool/enable_system_foreground_service_default"
+97-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:49:13-77
+98            android:exported="false" />
+98-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:50:13-37
+99
+100        <receiver
+100-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:54:9-59:35
+101            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+101-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:55:13-88
+102            android:directBootAware="false"
+102-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:56:13-44
+103            android:enabled="true"
+103-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:57:13-35
+104            android:exported="false" />
+104-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:58:13-37
+105        <receiver
+105-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:60:9-69:20
+106            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+106-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:61:13-88
+107            android:directBootAware="false"
+107-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:62:13-44
+108            android:enabled="false"
+108-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:63:13-36
+109            android:exported="false" >
+109-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:64:13-37
+110            <intent-filter>
+110-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:66:13-68:29
+111                <action android:name="android.intent.action.BOOT_COMPLETED" />
+111-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:67:17-79
+111-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:67:25-76
+112            </intent-filter>
+113        </receiver>
+114        <receiver
+114-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:70:9-80:20
+115            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+115-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:71:13-78
+116            android:directBootAware="false"
+116-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:72:13-44
+117            android:enabled="true"
+117-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:73:13-35
+118            android:exported="true"
+118-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:74:13-36
+119            android:permission="android.permission.DUMP" >
+119-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:75:13-57
+120            <intent-filter>
+120-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:77:13-79:29
+121                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+121-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:78:17-88
+121-->[androidx.work:work-runtime:2.11.0] /home/hermes/.gradle/caches/9.5.1/transforms/031a799809ae05d24d1c8e37575ae0ad/transformed/work-runtime-2.11.0/AndroidManifest.xml:78:25-85
+122            </intent-filter>
+123        </receiver>
+124
+125        <uses-library
+125-->[androidx.window:window:1.5.0] /home/hermes/.gradle/caches/9.5.1/transforms/81676f9d4dd9f77601bb60b959b7b3a5/transformed/window-1.5.0/AndroidManifest.xml:23:9-25:40
+126            android:name="androidx.window.extensions"
+126-->[androidx.window:window:1.5.0] /home/hermes/.gradle/caches/9.5.1/transforms/81676f9d4dd9f77601bb60b959b7b3a5/transformed/window-1.5.0/AndroidManifest.xml:24:13-54
+127            android:required="false" />
+127-->[androidx.window:window:1.5.0] /home/hermes/.gradle/caches/9.5.1/transforms/81676f9d4dd9f77601bb60b959b7b3a5/transformed/window-1.5.0/AndroidManifest.xml:25:13-37
+128        <uses-library
+128-->[androidx.window:window:1.5.0] /home/hermes/.gradle/caches/9.5.1/transforms/81676f9d4dd9f77601bb60b959b7b3a5/transformed/window-1.5.0/AndroidManifest.xml:26:9-28:40
+129            android:name="androidx.window.sidecar"
+129-->[androidx.window:window:1.5.0] /home/hermes/.gradle/caches/9.5.1/transforms/81676f9d4dd9f77601bb60b959b7b3a5/transformed/window-1.5.0/AndroidManifest.xml:27:13-51
+130            android:required="false" />
+130-->[androidx.window:window:1.5.0] /home/hermes/.gradle/caches/9.5.1/transforms/81676f9d4dd9f77601bb60b959b7b3a5/transformed/window-1.5.0/AndroidManifest.xml:28:13-37
+131
+132        <service
+132-->[androidx.room:room-runtime-android:2.8.4] /home/hermes/.gradle/caches/9.5.1/transforms/513c691872371562027d95cbc7917cd9/transformed/room-runtime/AndroidManifest.xml:24:9-28:63
+133            android:name="androidx.room.MultiInstanceInvalidationService"
+133-->[androidx.room:room-runtime-android:2.8.4] /home/hermes/.gradle/caches/9.5.1/transforms/513c691872371562027d95cbc7917cd9/transformed/room-runtime/AndroidManifest.xml:25:13-74
+134            android:directBootAware="true"
+134-->[androidx.room:room-runtime-android:2.8.4] /home/hermes/.gradle/caches/9.5.1/transforms/513c691872371562027d95cbc7917cd9/transformed/room-runtime/AndroidManifest.xml:26:13-43
+135            android:exported="false" />
+135-->[androidx.room:room-runtime-android:2.8.4] /home/hermes/.gradle/caches/9.5.1/transforms/513c691872371562027d95cbc7917cd9/transformed/room-runtime/AndroidManifest.xml:27:13-37
+136
+137        <receiver
+137-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/hermes/.gradle/caches/9.5.1/transforms/bc1a510e2641645fd1fac7dde6919cfa/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+138            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+138-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/hermes/.gradle/caches/9.5.1/transforms/bc1a510e2641645fd1fac7dde6919cfa/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+139            android:directBootAware="false"
+139-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/hermes/.gradle/caches/9.5.1/transforms/bc1a510e2641645fd1fac7dde6919cfa/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+140            android:enabled="true"
+140-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/hermes/.gradle/caches/9.5.1/transforms/bc1a510e2641645fd1fac7dde6919cfa/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+141            android:exported="true"
+141-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/hermes/.gradle/caches/9.5.1/transforms/bc1a510e2641645fd1fac7dde6919cfa/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+142            android:permission="android.permission.DUMP" >
+142-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/hermes/.gradle/caches/9.5.1/transforms/bc1a510e2641645fd1fac7dde6919cfa/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+143            <intent-filter>
+143-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/hermes/.gradle/caches/9.5.1/transforms/bc1a510e2641645fd1fac7dde6919cfa/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+144                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+144-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/hermes/.gradle/caches/9.5.1/transforms/bc1a510e2641645fd1fac7dde6919cfa/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+144-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/hermes/.gradle/caches/9.5.1/transforms/bc1a510e2641645fd1fac7dde6919cfa/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+145            </intent-filter>
+146            <intent-filter>
+146-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/hermes/.gradle/caches/9.5.1/transforms/bc1a510e2641645fd1fac7dde6919cfa/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+147                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+147-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/hermes/.gradle/caches/9.5.1/transforms/bc1a510e2641645fd1fac7dde6919cfa/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+147-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/hermes/.gradle/caches/9.5.1/transforms/bc1a510e2641645fd1fac7dde6919cfa/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+148            </intent-filter>
+149            <intent-filter>
+149-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/hermes/.gradle/caches/9.5.1/transforms/bc1a510e2641645fd1fac7dde6919cfa/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+150                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+150-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/hermes/.gradle/caches/9.5.1/transforms/bc1a510e2641645fd1fac7dde6919cfa/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+150-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/hermes/.gradle/caches/9.5.1/transforms/bc1a510e2641645fd1fac7dde6919cfa/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+151            </intent-filter>
+152            <intent-filter>
+152-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/hermes/.gradle/caches/9.5.1/transforms/bc1a510e2641645fd1fac7dde6919cfa/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+153                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+153-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/hermes/.gradle/caches/9.5.1/transforms/bc1a510e2641645fd1fac7dde6919cfa/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+153-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/hermes/.gradle/caches/9.5.1/transforms/bc1a510e2641645fd1fac7dde6919cfa/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+154            </intent-filter>
+155        </receiver>
+156    </application>
+157
+158</manifest>
