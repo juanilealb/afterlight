@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.juani.afterlight.domain.ArticleIntentParserTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-05-27T02:32:08.605Z" hostname="jleal-apps" time="1.281">
-  <properties/>
-  <testcase name="parsesPlainTextShareUrl" classname="com.juani.afterlight.domain.ArticleIntentParserTest" time="1.045"/>
-  <testcase name="parsesExplicitAfterlightIntent" classname="com.juani.afterlight.domain.ArticleIntentParserTest" time="0.019"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

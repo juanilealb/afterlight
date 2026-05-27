@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.juani.afterlight.domain.MarkdownArchiveTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-05-27T02:32:09.965Z" hostname="jleal-apps" time="0.006">
-  <properties/>
-  <testcase name="slugNormalizesTitleAndDate" classname="com.juani.afterlight.domain.MarkdownArchiveTest" time="0.005"/>
-  <testcase name="frontMatterEscapesQuotes" classname="com.juani.afterlight.domain.MarkdownArchiveTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
