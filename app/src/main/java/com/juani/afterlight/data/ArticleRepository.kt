@@ -18,7 +18,7 @@ class ArticleRepository(
         val capturedAt = Instant.now()
         val extracted = HtmlToMarkdownExtractor.extract(incoming)
         val title = extracted.title.ifBlank { incoming.title ?: "Untitled" }
-        val markdown = MarkdownArchive.document(incoming, title, extracted.markdown, capturedAt)
+        val markdown = MarkdownArchive.document(incoming, extracted.copy(title = title), capturedAt)
         val dir = File(context.filesDir, "markdown").apply { mkdirs() }
         val file = File(dir, MarkdownArchive.slug(title, capturedAt))
         file.writeText(markdown)
